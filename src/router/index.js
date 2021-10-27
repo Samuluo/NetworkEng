@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Header from '../components/HeadIndex.vue'
+import Footer from '../components/FootIndex.vue'
 
 Vue.use(VueRouter);
 
@@ -15,6 +16,10 @@ const routes = [
         name: 'Header',
         path: 'HeadIndex',
         component: Header,
+      },{
+        name: 'Footer',
+        path: 'FootIndex',
+        component: Footer,
       }
     ]
   },

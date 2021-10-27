@@ -1,5 +1,5 @@
 <template>
-    <div class="site-top">
+    <!--<div class="site-top">
         <div class="site-branding">
             <span class="site-title">
                 <span class="logolink moe-mashiro">
@@ -30,23 +30,40 @@
                 </nav>
             </div>
         </div>
+    </div>-->
+    <div id="header" style="opacity: 1;">
+        <div class="scrollCls" id="scrollInfo" style="width: 0%"></div>
+        <div class="site-branding" id="blogTitle">
+        <span class="logolink moe-mashiro">
+            <a href="/" alt="我是头粪">
+                <ruby>
+                    <span class="sakuraso">我是头</span>
+                    <span class="no"></span>
+                    <span class="shironeko">粪</span>
+                    <rt class="chinese-font">我是头粪</rt>
+                </ruby>
+            </a>
+        </span>
+        </div>
+        <!--<a href="#" class="cd-top faa-float animated cd-fade-out" style="top: -900px;"></a>
+        <div class="esa-mobile-menu"></div>-->
+        <div id="navigator">
+            <ul id="navList">
+                <li><a id="nav_sitehome" class="menu">首页</a> </li>
+            </ul>
+        </div>
     </div>
+
 </template>
 
 <script>
-
-    import goIntoNormalMode from '../assets/js/main'
     export default {
         name: "HeadIndex",
-        mounted(){
-                goIntoNormalMode();
-        }
     }
 </script>
 
 <style scoped>
     @import "../assets/css/page.css";
-    @import "../assets/css/lib.min.css";
     .site-top {
         width: 100%;
         display: block;

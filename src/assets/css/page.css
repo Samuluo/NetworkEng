@@ -52,7 +52,7 @@
 }
 
 body {
-    cursor: url(https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cursor/normal.cur), auto;
+    cursor: url(https://files-cdn.cnblogs.com/files/zouwangblog/cursor.ico), auto;
     background: #fff;
     color: #314659;
     min-height: 100% !important;
@@ -1780,23 +1780,12 @@ div.info.note:before {
     text-decoration-line: none;
 }
 
-.site-title a {
-    color: #464646;
-    font-weight: 400;
+.logolink ruby {
+    ruby-position: under;
+    -webkit-ruby-position: after;
 }
-.logolink .sakurasono {
-    background-color: rgba(255,255,255,.5);
-    border-radius: 5px;
-    color: #464646;
-    height: auto;
-    line-height: 25px;
-    margin-right: 0;
-    padding-bottom: 0;
-    padding-top: 1px;
-    text-size-adjust: 100%;
-    width: auto;
-}
-.logolink.moe-mashiro .sakurasono, .logolink.moe-mashiro .no {
+
+.logolink.moe-mashiro .sakuraso, .logolink.moe-mashiro .no {
     font-size: 25px;
     border-radius: 9px;
     padding: 5px 0px 0px 2px;
@@ -2240,7 +2229,7 @@ header.single-header {
     z-index: 99;
     width: 70px;
     height: 900px;
-    background: url(https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/scroll.png) no-repeat center;
+    background: url(https://img2018.cnblogs.com/blog/1646268/201908/1646268-20190808095655186-266655888.png) no-repeat center;
     background-size: contain;
     -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
